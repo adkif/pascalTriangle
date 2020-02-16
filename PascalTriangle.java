@@ -2,7 +2,7 @@ public class PascalTriangle {
 	public static void main(String[] args) {
 		final int N = 50;
 		final int M = 50;
-		int[][] tableau = new int[M][N];
+		double[][] tableau = new double[M][N];
 		for (int i = 0; i < tableau.length; i++) {
 			tableau[i][0] = 1;
 			tableau[i][i] = 1;
