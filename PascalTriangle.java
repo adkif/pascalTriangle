@@ -3,7 +3,6 @@ public class PascalTriangle {
 		final int N = 50;
 		final int M = 50;
 		int[][] tableau = new int[M][N];
-		tableau[0][0] = 1;
 		for (int i = 0; i < tableau.length; i++) {
 			tableau[i][0] = 1;
 			tableau[i][i] = 1;
